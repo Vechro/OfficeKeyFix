@@ -11,5 +11,5 @@ You must link `user32.lib` from Windows 10/11 SDK. The SDK can be obtained as pa
 Using the Developer Command Prompt included with Build Tools:
 
 ```sh
-cl /O2 .\OfficeKeyFix.cpp /link user32.lib
+cl /O2 .\OfficeKeyFix.c /link user32.lib
 ```
